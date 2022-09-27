@@ -1,0 +1,371 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+body{
+    background-color: grey;
+    margin: 0;
+   
+}
+   /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+#navbar a:hover {
+  color: gold;
+}
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+ 
+
+  
+ 
+  
+ 
+
+  .topdesign{
+    width: 20%;
+  }
+
+  .topdesign img{
+    clip-path: polygon(51% 0, 0 0, 0 88%);
+    background: transparent;
+    float: top;
+    position: relative;
+    height: 500px;
+  }
+
+  .bottext{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 150px;
+    z-index: -5;
+  }
+ 
+  .firkant1 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(240, 137, 253);
+    opacity: .50;
+    border-style: solid;
+    
+   
+  }
+  .firkant2 {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(137, 192, 255); 
+    margin-top:10%;
+    margin-left:40%;
+    opacity: .90;
+    border-style: solid;
+  }
+  .firkant3 {
+    height: 110px;
+    width: 110px;
+    background-color: rgb(237, 248, 83); 
+    margin-bottom:50%;
+    margin-left:10%;
+    opacity: .90;
+    border-style: solid;
+  }
+
+  .infoText {
+   text-align: center;
+   position: relative;
+   bottom: 150px;
+   color: #111; 
+   font-family: 'Helvetica Neue', sans-serif; 
+   font-size: 55px; 
+   font-weight: bold; 
+   letter-spacing: -1px; 
+   line-height: 1; 
+  }
+
+/*efter forside asdasjdljasldkjasldkjaldkjasldkjasdælkajsdælkjad*/
+
+
+ 
+
+
+/* Vores Timeline */
+.column {
+  float: right;
+  width: 50%;
+  height: 950px;
+ 
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  height: 950px;
+
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.karakter{
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+  border-radius: 50%;
+   }
+
+
+
+.infotitle{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 77px;
+text-align: center;
+margin-top: 40px;
+
+color: #ffffff;
+}
+
+
+
+.infotekst{
+
+background-color: white;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+color: #000000;
+
+
+}
+
+
+.kontainer{
+  position: relative;
+  left: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  opacity: 0.65;
+  z-index: -1;
+}
+
+
+
+.columnkontakt{
+  margin-top: 25%;
+  width: 100%;
+  height: auto;
+}
+
+
+.columnkontakt p{
+  text-align: center;
+   
+   color: #111; 
+   font-family: 'Helvetica Neue', sans-serif; 
+   font-size: 55px; 
+   font-weight: bold; 
+   letter-spacing: -1px; 
+   line-height: 1;
+}
+
+
+
+
+
+.row {
+  display: flex;
+  width: 70%;
+  height: 400px;
+ 
+}
+
+.row div {
+  width: 90%;
+  
+}
+
+.noMargin {
+  margin: 0px;
+  margin-left: 15%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 25px;
+  
+}
+
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+
+
+.middle {
+  
+  opacity: 0;
+ 
+  position: absolute;
+  top: 8px;
+  left: 16px;
+ 
+  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  z-index: -1;
+}
+
+.text {
+  background-color: #000000;
+  clear: both;
+  color: white;
+  font-size: 18px;
+  padding: 16px 32px;
+  
+}
+
+
+.Porttitle{
+font-family: cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 77px;
+text-align: center;
+margin-top: 40px;
+color: #ffffff;
+}
+
+
+.Kontakttitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 77px;
+text-align: center;
+margin-top: 40px;
+
+color: #ffffff;
+}
+
+
+/*KONTAKT*/
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ width: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.containerkontakt {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: relative;
+  bottom: 300px;
+  left: 250px;
+  width: 70%;
+}
+
